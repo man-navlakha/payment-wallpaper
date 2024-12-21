@@ -23,10 +23,22 @@ namespace WallpaperChanger
             form1.Show();
         }
 
-        private void aboutus_Click(object sender, EventArgs e)
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void aboutToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             AboutBox1 aboutBox1 = new AboutBox1();
             aboutBox1.Show();
+        }
+
+        private void screenTestToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            test test = new test();
+            test.Show();
         }
     }
 }
