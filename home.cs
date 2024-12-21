@@ -24,10 +24,6 @@ namespace WallpaperChanger
         }
 
 
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
-        }
 
         private void aboutToolStripMenuItem1_Click(object sender, EventArgs e)
         {
@@ -39,6 +35,31 @@ namespace WallpaperChanger
         {
             test test = new test();
             test.Show();
+        }
+
+        private void btn_Screen_Click(object sender, EventArgs e)
+        {
+            test test = new test();
+            test.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // Open the RAM Test form when button1 is clicked
+            OpenForm(new ram_I());
+        }
+
+        //Button windowsInfoButton = new Button { Text = "Windows Information", Dock = DockStyle.Top };
+        //windowsInfoButton.Click += (s, e) => OpenForm(new WindowsInfoForm());
+
+
+        private void OpenForm(Form form)
+        {
+            // Clear existing controls and show the new form
+            dj.Controls.Clear();
+            form.TopLevel = false;
+            dj.Controls.Add(form);
+            form.Show();
         }
     }
 }
