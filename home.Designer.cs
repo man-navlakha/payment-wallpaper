@@ -308,7 +308,7 @@
             // 
             this.panel6.Controls.Add(this.pictureBox2);
             this.panel6.Controls.Add(this.wel);
-            this.panel6.Location = new System.Drawing.Point(259, 98);
+            this.panel6.Location = new System.Drawing.Point(240, 98);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(371, 207);
             this.panel6.TabIndex = 3;
