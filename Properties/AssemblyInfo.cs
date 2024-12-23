@@ -6,13 +6,13 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Wallpaper Changer")]
+[assembly: AssemblyTitle("System Diagonal - BD")]
 [assembly: AssemblyDescription("This app is build for chnaging wallpaper for if payment is not paid when this app is change the wallpaper automatically when you pay the payment it not change the wallpaper automatically this application is made by Man Navlakha")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Brand Dilation")]
-[assembly: AssemblyProduct("WallpaperChanger")]
+[assembly: AssemblyProduct("System Diagonal")]
 [assembly: AssemblyCopyright("Copyright ©  2024 by Man Navlakha")]
-[assembly: AssemblyTrademark("Man Navlakha")]
+[assembly: AssemblyTrademark("Man Navlakha - BD")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
@@ -30,6 +30,6 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("1.0.0.4")]
-[assembly: AssemblyFileVersion("1.0.4.4")]
+[assembly: AssemblyVersion("1.0.0.5")]
+[assembly: AssemblyFileVersion("1.0.4.5")]
 [assembly: NeutralResourcesLanguage("en-IN")]

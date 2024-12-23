@@ -7,7 +7,7 @@
     <ProjectGuid>{9B35D83B-9829-4C0A-93F4-22DF7C7F75F9}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>WallpaperChanger</RootNamespace>
-    <AssemblyName>Wallpaper Changer</AssemblyName>
+    <AssemblyName>System Diagonal - BD</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -87,6 +87,7 @@
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.Management" />
     <Reference Include="System.Net.Http, Version=4.1.1.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>packages\System.Net.Http.4.3.4\lib\net46\System.Net.Http.dll</HintPath>
       <Private>True</Private>
@@ -176,6 +177,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="ram_I.resx">
       <DependentUpon>ram_I.cs</DependentUpon>
